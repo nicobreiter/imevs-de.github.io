@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Idee - iMeVS - intelligentes Melden von Schäden und Störungen im öffentlichen Raum</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/theme.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" data-toggle="tooltip" data-placement="bottom" title="intelligentes Melden von Schäden und Störungen im öffentlichen Raum" href="index.html">iMeVS</a> <br />
+                </div>
+                <div class="collapse navbar-collapse" id="mainmenu-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Startseite</a></li>
+                        <li class="active"><a href="idea.html">Idee</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="beta.html">Beta</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="contribute.html">Mitwirken</a></li>
+                        <li><a href="https://github.com/imevs-de"><i class="fa fa-github"></i> GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="content container">
+            <h1>Die Idee hinter iMeVS</h1>
+            <h2>Vorgeschichte</h2>
+            <p>Ein kurzer Abstecher in die Geschichte, wie mir die Idee zu iMeVS kam: Ich laufe gemütlich ohne mir Böses zu denken die Treppe an einer Bahnhaltestelle nach unten. War abgelenkt und habe nicht auf den Boden geschaut. Vandalen haben eine Reihe von Steinen direkt vor der Treppe entfernt und ich trete natürlich rein. Hätte ich das Treppengeländer nicht zu fassen gekriegt, hätte ich mich wohl ganz schön verletzt. Die Suche nach einer Möglichkeit zum Melden brauchte über eine halbe Stunde - Zeit, die kaum einer investiert, um Schäden und Störungen im öffentlichen Raum zu melden.</p>
+            <h2>Was soll iMeVS werden?</h2>
+            <p>iMeVS soll aus zwei Teilen bestehen: Einer für jeden nutzbaren Programmierschnittstelle und aus einer App für Android, Blackberry, Windows Phone, Firefox OS und Ubuntu Touch. Eine iOS-App von uns ist aus Gründen der Finanzierung - keine Werbung, keine anderen Einnahmen durch die App - vermutlich nicht möglich.</p>
+            <p>Die API soll anhang der Postleitzahl einer GPS-Position die zuständige Stelle für das Problem finden und diese per E-Mail informieren, die App soll die Daten sammeln und an die API senden.</p>
+            <h2>Wie soll iMeVS umgesetzt werden?</h2>
+            <h3>Backend (Schnittstelle)</h3>
+            <p>Die API bzw. das gesamte Backend soll auf Basis von PHP ohne ein Framework entwickelt werden. Die zuständigen Stellen werden in einer nicht-öffentlichen Datenbank gespeichert. Die Antwort der API soll im JSON-Format erfolgen.</p>
+            <h3>App</h3>
+            <p>Die iMeVS-App soll mit Phonegap und Phonegap-Build für alle gängigen Plattformen, außer iOS, entwickelt und veröffentlicht werden. Aus Geldgründen wird eine iOS-App vermutlicht nicht angeboten werden - 99 USD pro Jahr für einen Developer-Account sind eine Menge, wenn man mit der App keinerlei Einnahmen macht. Wenn wir aber einen Publisher, der uns die App veröffentlicht, oder einen Sponsor, der uns das Geld zur Verfügung stellt, finden, werden wir die App auch für iOS anbieten.</p>
+        </div>
+        
+        <footer>
+            <hr>
+            <div class="container">
+                Ein Projekt von <a href="http://aklewer.pw">Aaron Klewer</a> und <a href="team.html">weiteren Teammitgliedern</a>. <br />
+                <a href="legal-notice.html">Impressum</a> - <a href="privacy.html">Hinweise zum Datenschutz</a>
+            </div>
+        </footer>
+    </header>
+    
+    <!-- Javascript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="js/webseite.js"></script>
+</body>
